@@ -60,6 +60,7 @@ const SCHEDULE = {
   },
   CRAWL: {
     FILTERS: {
+      MAX_ITEMS: 100,
       URL: {
         MAX_LENGTH: CONSTANTS.LENGTH.URL,
         validate: (pattern) => UrlFilter.validate(pattern),
@@ -87,6 +88,7 @@ const SCHEDULE = {
     },
   },
   URLS: {
+    MAX_ITEMS: 100,
     validate: (url) => validator.isURL(url, { allow_underscores: true }),
   },
 };
