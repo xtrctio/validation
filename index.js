@@ -122,6 +122,10 @@ const SEARCH = {
   },
 };
 
+const TOKENS = {
+  MAX_ITEMS: 10,
+};
+
 /* eslint global-require: "off" */
 module.exports = {
   validator,
@@ -132,4 +136,5 @@ module.exports = {
   USER,
   SCHEDULE,
   SEARCH,
+  TOKENS,
 };
