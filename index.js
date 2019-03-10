@@ -59,6 +59,16 @@ const SCHEDULE = {
     MAX_LENGTH: CONSTANTS.LENGTH.STANDARD,
     PATTERN: CONSTANTS.PATTERNS.URL_SAFE_STRING,
   },
+  REPEAT: {
+    UNIT: {
+      ENUM: ['day', 'week', 'month'],
+    },
+    VALUE: {
+      MINIMUM: 1,
+      MAXIMUM: 50,
+      TYPE: 'number',
+    },
+  },
   CRAWL: {
     FILTERS: {
       MAX_ITEMS: 100,
