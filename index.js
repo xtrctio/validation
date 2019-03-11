@@ -66,7 +66,7 @@ const SCHEDULE = {
     VALUE: {
       MINIMUM: 1,
       MAXIMUM: 50,
-      TYPE: 'number',
+      TYPE: 'integer',
     },
   },
   CRAWL: {
