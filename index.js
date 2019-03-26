@@ -6,7 +6,7 @@ const validator = require('validator');
 
 const CONSTANTS = {
   PATTERNS: {
-    URL_SAFE_STRING: /^[a-zA-Z0-9][a-zA-Z0-9_-]+$/g,
+    URL_SAFE_STRING: /^[a-zA-Z0-9][a-zA-Z0-9_-]+$/,
   },
   LENGTH: {
     STANDARD: 128,
