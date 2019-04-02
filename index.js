@@ -76,7 +76,7 @@ const SCHEDULE = {
         MAX_LENGTH: CONSTANTS.LENGTH.URL,
         validate: (pattern) => UrlFilter.validate(pattern),
       },
-      SELECTORS: {
+      SELECTOR: {
         MAX_LENGTH: CONSTANTS.LENGTH.URL,
         validate: (selector) => {
           selector = selector.startsWith('!') ? selector.slice(1, selector.length - 1) : selector;
